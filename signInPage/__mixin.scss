@@ -1,0 +1,6 @@
+@mixin styleText($c, $fz, $fw, $ls){
+    color: $c;
+    font-size: $fz;
+    font-weight: $fw;
+    letter-spacing: $ls;
+}
