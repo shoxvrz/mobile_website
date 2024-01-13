@@ -1,5 +1,5 @@
-@import './_mixin';
-@import './_variables';
+@import './_signUpMixin';
+@import './_signUpVariables';
 
 * {
     padding: 0;
@@ -7,6 +7,13 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .cont {
     max-width: 480px;
